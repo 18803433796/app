@@ -1,0 +1,175 @@
+  html,body{
+        margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+    }
+    .swiper-container{
+    	width:100%;
+    	height:100%;
+    }
+.swiper-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.top{
+	width:100%;
+	height:0.4rem;
+	background: url(../img/1_01.gif)no-repeat;
+	background-size:contain;
+}
+.center{
+	background: url(../img/q.png)no-repeat;
+	width:100%;
+	height:13.50rem;
+	background-size:contain;
+	background-position-y:-0.2rem;
+}
+.bottom{
+	width:100%;
+	height:100%;
+	background: url(../img/03.png)no-repeat;
+	/*background-position-y:-2.6rem;*/
+	z-index:10;
+}
+.yueliang{
+	position:absolute;
+	left:0.1rem;
+	top:5rem;
+	width:0.2rem;
+	height:0.2rem;
+	z-index:11;
+}
+.yun1{
+	position:absolute;
+	left:-0.1rem;
+	top:6rem;
+	z-index:11;
+}
+.yun2{
+	position:absolute;
+	right:-0.3rem;
+	top:7.5rem;
+	z-index:11;
+}
+.yun3{
+	position:absolute;
+	right:-0.3rem;
+	top:4rem;
+	z-index:11;
+}
+.kong{
+	position:absolute;
+	top:4.2rem;
+	left:1.8rem;
+	width:3.8rem;
+	height:6.7rem;
+	z-index:11;
+	background:white;
+}
+.kongbox{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.kong-top{
+	position:absolute;
+	left:0;
+	top:0;
+	width:3.8rem;
+	height:0.2rem;
+}
+.zuo{
+	position:absolute;
+	width:0.55em;
+	height:0.55em;
+	top:0.15em;
+	left:-0.1em;
+}
+.you{
+	position:absolute;
+	width:0.55em;
+	height:0.55em;
+	top:0.15em;
+	right:-0.1em;
+}
+.kong p{
+	font-family: "微软雅黑";
+	position:absolute;
+	margin: auto;
+	right:0;
+	left:1.4rem;
+	top:0.75em;
+	
+	font-size:12px;
+	
+}
+.zhe1{
+	position:absolute;
+	background:#CFEAFD;
+	width:5rem;
+	height:1.6rem;
+	top:0.8rem;
+	left:-0.63rem;
+	opacity:0.5;
+}
+.zhe2{
+	position:absolute;
+	background:#9CD1F9;
+	width:5.2rem;
+	height:1.1rem;
+	top:1.1em;
+	left:-0.72rem;
+	opacity: 0.7;
+}
+.zhe3{
+	position:absolute;
+	background:#fff;
+	width:5.4rem;
+	height:1.4rem;
+	top:0.6rem;
+	left:-0.78rem;
+
+}
+.yiyue{
+	
+	position:absolute;
+	
+	left:2rem;
+	top:0.2rem;
+	
+	font-size:0.12rem;
+}
+.yishou{
+	position:absolute;
+   	left:0.3rem;
+	top:0.7rem;
+	
+	font-size:0.10rem;
+	
+	color:#ccc;
+}
+.yuan{
+	position:absolute;
+	width:1.5rem;
+	height:1.5rem;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:2.5em;
+	border:3px solid #F60985;
+	border-radius: 50%;
+}
+.hua{
+	position:absolute;
+	left:-0.28em;
+	top:-0.1rem;
+}
+.kaishi{
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:4em;
+}
